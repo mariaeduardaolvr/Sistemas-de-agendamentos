@@ -1,0 +1,64 @@
+/* FUNDO DO SISTEMA */
+body.bg-system {
+    background-color: #f4f6f9;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* HEADER SUPERIOR (FAIXA AZUL ESCURO) */
+.system-header {
+    background-color: #1f2d3d;
+    color: white;
+    padding: 30px 0;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.system-header h1 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.system-header p {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* CARD PRINCIPAL */
+.system-card {
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+    border: 3px solid #1f2d3d; /* borda azul escuro adicionada */
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* TÍTULO DESTACADO DENTRO DO CARD */
+.system-card h3 {
+    background-color: #1f2d3d;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* BOTÃO */
+.btn-primary {
+    background-color: #2c3e50;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1a252f;
+}
+
+/* PROTOCOLO */
+.protocol-box {
+    background-color: #eef2f7;
+    padding: 20px;
+    border-radius: 6px;
+}
